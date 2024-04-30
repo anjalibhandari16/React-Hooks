@@ -6,6 +6,7 @@ function Addlist() {
 
     const handleChange = (e) =>{
         e.preventDefault();
+        if (!item.trim()) return; // Prevent adding empty items
         setList([...list,{
             id:list.length,
             value:item
