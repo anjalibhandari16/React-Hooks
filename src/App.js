@@ -16,16 +16,22 @@ import TimerClassComponent from './Components_useEffect/7-TimerClassComponent';
 import TimerFnComponent from './Components_useEffect/8-TimerFnComponent';
 import GetData from './Components_useEffect/9-GetData';
 import GetDataCustomized from './Components_useEffect/10-GetDataCustomized';
-
+import ComponentA from './Components_useContext/ComponentA';
+import ClickCounter from './Components_ueReducer/1-ClickCounter';
+import ClickCounterPractice from './Components_ueReducer/2-ClickCounterPractice';
+import CounterTwo from './Components_ueReducer/3-CounterTwo';
+import CounterThree from './Components_ueReducer/4-CounterThree';
 function App() {
   return (
     <div className="App">
+
       {/* <ClickComponent /> */}
       {/* <ClickFunctionalComponent /> */}
       {/* <HookCounter /> */}
       {/* <ClickWith_useStateObject /> */}
       {/* <ClickWith_useStateArray /> */}
       {/* <AddItem /> */}
+
       {/* <UseEffectExample /> */}
       {/* <ClassComponentUseEffectExample /> */}
       {/* <UseEffectExample2 /> */}
@@ -35,7 +41,14 @@ function App() {
       {/* <TimerClassComponent /> */}
       {/* <TimerFnComponent /> */}
       {/* <GetData /> */}
-      <GetDataCustomized />
+      {/* <GetDataCustomized /> */}
+
+      {/* <ComponentA /> */}
+
+      {/* <ClickCounter /> */}
+      {/* <ClickCounterPractice /> */}
+      {/* <CounterTwo /> */}
+      <CounterThree />
     </div>
   );
 }
